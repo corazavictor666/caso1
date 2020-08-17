@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         
+	//Add Docker user
         DOCKER_IMAGE_NAME = "jenkins/gradle-test"
     }
     stages {
